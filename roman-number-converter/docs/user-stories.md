@@ -42,8 +42,6 @@ First we get for console asking for the input for the number to be converted
 
 Then, we are given with the value in roman
 
-Finally, we are been asked if we want to continue with a yes or no question
-
 **Estimate:**: 1.5 day
 
 **Priority**: 100
