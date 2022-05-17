@@ -52,13 +52,15 @@ Finally, we are been asked if we want to continue with a yes or no question
 
 ### Acceptation criteria
 
-- [ ] Input ***MUST NOT*** be a negative number., otherwise error should be prompt.
+- [ ] Input ***MUST NOT*** be a negative number, otherwise error should be prompt.
 - [ ] Input ***MUST NOT*** be zero, otherwise error should be prompt.
 - [ ] Input ***MUST NOT*** be empty, null or undefined value.
-- [ ] Convertion ***MUST*** take only integer part of floating point value.
 - [ ] The input ***MUST*** be a number, either integer or floating point decimal, strings or other kind of data aren't accepted.
+- [ ] Convertion ***MUST*** take only integer part of floating point value.
 - [ ] The input ***MUST*** be between 1 to 3999, otherwise prompt error.
 
 ### Notes
 
 ![Roman Convertion](https://www.thecrazyprogrammer.com/wp-content/uploads/2017/09/Convert-Decimal-Number-to-Roman-Numeral-in-C-and-C.png?ezimgfmt=rs:146x273/rscb1/ng:webp/ngcb1)
+
+*The outputs should be as short as possible*
