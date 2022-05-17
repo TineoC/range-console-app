@@ -8,26 +8,40 @@
 
 ## Dependencies
 
-    1. Git
-    2. Node
+1. Git
+2. Node
 
 ### Debian/Ubuntu Instalation    
 
 #### 1. Open your favorite terminal
 
-#### 2. Run this command
+#### 2. Run these commands
 
 ```powershell
 
-sudo apt install nodejs
+./{your-directory}
 
-sudo apt install npm
+$ sudo apt install nodejs
 
-sudo apt-get install git-all
+$ sudo apt install npm
 
-git clone https://github.com/TineoC/IDS347-Projects/tree/master/roman-number-converter
+$ sudo apt-get install git-all
 
-npm install
+```
+
+```powershell
+
+./{your-directory}
+
+$ git clone https://github.com/TineoC/IDS347-Projects/tree/master/roman-number-converter
+
+```
+
+```powershell
+
+./{your-directory}/roman-number-converter
+
+$ npm install
 
 ```
 
@@ -47,9 +61,17 @@ https://git-scm.com/downloads
 
 ```powershell
 
-git clone https://github.com/TineoC/IDS347-Projects/tree/master/roman-number-converter
+./{your-directory}
 
-npm install
+$ git clone https://github.com/TineoC/IDS347-Projects/tree/master/roman-number-converter
+
+```
+
+```powershell
+
+./{your-directory}/roman-number-converter
+
+$ npm install
 
 ```
 
