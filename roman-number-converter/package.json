@@ -5,9 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "jest tests/converter.test.ts  --verbose",
-		"build": "tsc --watch",
+		"build": "tsc",
 		"prestart": "npm run build",
-		"start": "node ./dist/converter.js"
+		"start": "node ./dist/src/index.js"
 	},
 	"author": "Christopher Tineo",
 	"license": "ISC",
@@ -25,5 +25,8 @@
 		"env": {
 			"jest": true
 		}
+	},
+	"dependencies": {
+		"inquirer": "^8.2.4"
 	}
 }
