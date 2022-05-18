@@ -1,13 +1,12 @@
 {
-	"name": "roman-number-converter",
+	"name": "ssn-validator",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "./index.js",
 	"scripts": {
-		"test": "jest tests/converter.test.ts  --verbose",
-		"build": "tsc",
-		"prestart": "npm run build",
-		"start": "node ./dist/src/index.js",
+		"test": "jest --verbose",
+		"start": "node ./src/index.js",
+		"start:test": "npm run build && npm test"
 	},
 	"author": "Christopher Tineo",
 	"license": "ISC",
@@ -19,7 +18,10 @@
 	},
 	"jest": {
 		"preset": "ts-jest",
-		"testEnvironment": "node"
+		"testEnvironment": "node",
+		"testMatch": [
+			"**/?(*.)+(spec|test).[j]s?(x)"
+		]
 	},
 	"eslintConfig": {
 		"env": {
