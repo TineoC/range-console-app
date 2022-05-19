@@ -31,14 +31,6 @@ $ sudo apt-get install git-all
 
 ```powershell
 
-./{your-directory}
-
-$ git clone https://github.com/TineoC/IDS347-Projects/tree/master/roman-number-converter
-
-```
-
-```powershell
-
 ./{your-directory}/roman-number-converter
 
 $ npm install
@@ -57,15 +49,7 @@ https://git-scm.com/downloads
 
 #### 4. Open your favorite terminal in your coding directory
 
-#### 5. Run these commands
-
-```powershell
-
-./{your-directory}
-
-$ git clone https://github.com/TineoC/IDS347-Projects/tree/master/roman-number-converter
-
-```
+#### 5. Run this command
 
 ```powershell
 
@@ -83,22 +67,27 @@ $ npm install
 
 [Project User Stories](docs/user-stories.md)
 
-To run the app you should run npm start command inside project directory
+1. To run the app you should run npm start command inside project directory
 
 ```powershell
 
-./roman-number-converter/
+./{your-directory}/roman-number-converter
 
 $ npm start
 
 ```
 
-If you want to see unit test made
+2. After that you should see this prompt
 
 ```powershell
 
-./roman-number-converter/
+./{your-directory}/roman-number-converter
 
-$ npm test
+$ npm start
+
+> roman-number-converter@1.0.0 start
+> node ./dist/src/index.js
+
+? Write the arabig number to convert to roman: 
 
 ```
