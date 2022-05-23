@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "purescript": "^0.15.2",
     "readline-sync": "^1.4.10"
   }
 }
