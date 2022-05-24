@@ -22,5 +22,5 @@
 		"testMatch": [
 			"**/?(*.)+(spec|test).[j]s?(x)"
 		]
-   }
+	}
 }
