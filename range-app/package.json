@@ -1,0 +1,13 @@
+{
+	"name": "range-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"prompt-sync": "^4.2.0",
+		"range-kata-class": "^1.0.6"
+	}
+}
